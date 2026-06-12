@@ -87,9 +87,11 @@ def test_search_matches_title_path_and_tags(tmp_path: Path):
 def test_blocked_directories_are_excluded(tmp_path: Path):
     root = tmp_path / "vault"
     (root / ".git").mkdir(parents=True)
+    (root / ".pytest_cache").mkdir()
     (root / "secrets").mkdir()
     (root / "good").mkdir()
     (root / ".git" / "hidden.md").write_text("# Hidden\n", encoding="utf-8")
+    (root / ".pytest_cache" / "cache.md").write_text("# Cache\n", encoding="utf-8")
     (root / "secrets" / "secret.md").write_text("# Secret\n", encoding="utf-8")
     (root / "good" / "safe.md").write_text("# Safe\n", encoding="utf-8")
     config = write_config(tmp_path, root)

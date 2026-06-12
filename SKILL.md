@@ -4,7 +4,7 @@ description: >
   Local-first Markdown and Obsidian context bridge for agent chat channels. Safely list, preview, search,
   and package local Markdown/Obsidian/project notes so Telegram, Discord, CLI, and OpenClaw
   agents can attach the right files without copy/paste or broad filesystem access.
-version: 0.2.0
+version: 0.2.1
 dependencies: []
 provides: ["local_markdown_picker", "obsidian_context", "channel_file_picker", "markdown_context_pack"]
 ---

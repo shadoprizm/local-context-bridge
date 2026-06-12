@@ -16,7 +16,7 @@ from typing import Iterable
 DEFAULT_CONFIG_PATH = Path.home() / ".config" / "local-context-bridge" / "config.yaml"
 FALLBACK_ROOTS = [Path.home() / "Documents", Path.home() / "projects", Path.home() / "Sync"]
 DEFAULT_BLOCKED_PARTS = {
-    ".git", ".ssh", ".gnupg", ".env", "node_modules", ".venv", "venv", "__pycache__",
+    ".git", ".ssh", ".gnupg", ".env", ".pytest_cache", "node_modules", ".venv", "venv", "__pycache__",
     "credentials", "secrets", "private_keys", "keys",
 }
 SECRET_PATTERNS = [
