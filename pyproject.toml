@@ -1,0 +1,13 @@
+[project]
+name = "local-context-bridge"
+version = "0.2.0"
+description = "Safely attach local Markdown and Obsidian notes to agent chat channels."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Astra Devs"}]
+keywords = ["openclaw", "markdown", "obsidian", "agents", "telegram", "discord", "local-first"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

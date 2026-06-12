@@ -1,0 +1,26 @@
+# Local Context Bridge configuration
+# Copy to ~/.config/local-context-bridge/config.yaml or pass --config <path>.
+
+roots:
+  - name: Obsidian Vault
+    path: ~/Documents/Obsidian
+    type: vault
+  - name: Project Notes
+    path: ~/projects
+    type: project
+
+exclude:
+  - .git
+  - .ssh
+  - .gnupg
+  - .env
+  - node_modules
+  - .venv
+  - venv
+  - credentials
+  - secrets
+  - keys
+
+max_file_kb: 256
+default_since_hours: 72
+public_mode_default: metadata
