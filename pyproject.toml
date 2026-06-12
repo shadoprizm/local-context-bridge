@@ -1,5 +1,5 @@
 [project]
-name = "local-context-bridge"
+name = "vaultdrop"
 version = "0.2.0"
 description = "Safely attach local Markdown and Obsidian notes to agent chat channels."
 readme = "README.md"

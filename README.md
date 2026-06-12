@@ -1,10 +1,10 @@
-# Local Context Bridge
+# VaultDrop
 
 Safely attach local Markdown, Obsidian notes, project specs, and agent artifacts to chat agents in Telegram, Discord, CLI, and OpenClaw workflows.
 
 ## Why
 
-Your agent chat is empty, but your real context is in local Markdown files. Local Context Bridge gives agents a safe, operator-selected way to list, preview, and package those files without broad filesystem access or copy/paste walls.
+Your agent chat is empty, but your real context is in local Markdown files. VaultDrop gives agents a safe, operator-selected way to list, preview, and package those files without broad filesystem access or copy/paste walls.
 
 ## Quick start
 

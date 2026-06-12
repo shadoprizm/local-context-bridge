@@ -1,7 +1,7 @@
 ---
-name: local-context-bridge
+name: vaultdrop
 description: >
-  Local-first Markdown context bridge for agent chat channels. Safely list, preview, search,
+  Local-first Markdown and Obsidian context bridge for agent chat channels. Safely list, preview, search,
   and package local Markdown/Obsidian/project notes so Telegram, Discord, CLI, and OpenClaw
   agents can attach the right files without copy/paste or broad filesystem access.
 version: 0.2.0
@@ -9,7 +9,7 @@ dependencies: []
 provides: ["local_markdown_picker", "obsidian_context", "channel_file_picker", "markdown_context_pack"]
 ---
 
-# Local Context Bridge
+# VaultDrop
 
 ## One-line pitch
 
@@ -287,4 +287,4 @@ Safety behaviors:
 
 Use this ClawHub pitch:
 
-> Local Context Bridge is the missing file picker for agent chats: safely attach local Markdown, Obsidian notes, project specs, and generated reports to Telegram, Discord, CLI, and OpenClaw agents without copy/paste or broad filesystem access.
+> VaultDrop is the missing file picker for agent chats: safely attach local Markdown, Obsidian notes, project specs, and generated reports to Telegram, Discord, CLI, and OpenClaw agents without copy/paste or broad filesystem access.
